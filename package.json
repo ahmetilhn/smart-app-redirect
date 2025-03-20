@@ -1,0 +1,45 @@
+{
+  "name": "smart-app-redirect",
+  "version": "1.0.0",
+  "description": "Smart app redirect to markets by os (android, ios)",
+  "main": "build/index.umd.js",
+  "keywords": [
+    "app store redirect",
+    "google play store redirect",
+    "smart app redirect",
+    "market redirect",
+    "mobile app redirect"
+  ],
+  "scripts": {
+    "build": "sh ./scripts/build.sh",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ahmetilhn/smart-app-redirect.git"
+  },
+  "author": "Ahmet ilhan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahmetilhn/smart-app-redirect/issues"
+  },
+  "homepage": "https://github.com/ahmetilhn/smart-app-redirect#readme",
+  "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/preset-typescript": "^7.26.0",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/jest": "^29.5.14",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "rollup": "^4.36.0",
+    "rollup-plugin-dts": "^6.2.0",
+    "tslib": "^2.8.1"
+  },
+  "peerDependencies": {
+    "@ahmetilhn/handy-utils": "^3.2.2"
+  }
+}
