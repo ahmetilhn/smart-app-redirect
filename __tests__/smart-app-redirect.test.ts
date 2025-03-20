@@ -15,6 +15,7 @@ describe("SmartAppBanner tests", () => {
   const smartAppRedirect = new SmartAppRedirect({
     appStoreLink: APP_STORE_LINK,
     playStoreLink: PLAY_STORE_LINK,
+    defaultLink: PLAY_STORE_LINK,
   });
 
   test("it should redirect to app store", () => {

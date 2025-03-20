@@ -1,6 +1,6 @@
 {
   "name": "@ahmetilhn/smart-app-redirect",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Smart app redirect to markets by os (android, ios)",
   "main": "build/index.umd.js",
   "types": "build/index.d.ts",

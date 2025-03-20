@@ -4,14 +4,16 @@ import Params from "../types/params.type";
 class SmartAppRedirect {
   private appStoreLink: string;
   private playStoreLink: string;
-  constructor({ appStoreLink, playStoreLink }: Params) {
+  private defaultLink: string;
+  constructor({ appStoreLink, playStoreLink, defaultLink }: Params) {
     this.appStoreLink = appStoreLink;
     this.playStoreLink = playStoreLink;
+    this.defaultLink = defaultLink;
   }
   private getStoreLink = (): string => {
     if (isIos()) return this.appStoreLink;
     else if (isAndroid()) return this.playStoreLink;
-    throw new Error("No matching store link found!");
+    return this.defaultLink;
   };
   redirect = (): void => {
     window.location.replace(this.getStoreLink());
