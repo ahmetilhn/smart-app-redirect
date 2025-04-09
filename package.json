@@ -1,6 +1,6 @@
 {
   "name": "@ahmetilhn/smart-app-redirect",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Smart app redirect to markets by os (android, ios)",
   "main": "build/index.umd.js",
   "types": "build/index.d.ts",
@@ -41,6 +41,6 @@
     "tslib": "^2.8.1"
   },
   "peerDependencies": {
-    "@ahmetilhn/handy-utils": "^3.2.2"
+    "@ahmetilhn/handy-utils": "^3.2.3"
   }
 }
